@@ -15,6 +15,7 @@ echo "${hostname} ansible_host=${ip} ansible_connection=local" > /opt/tools/_etc
 #yum install epel-release -y --quiet > /dev/null
 #yum install -y ansible --quiet > /dev/null
 #yum install git-core pwgen -y --quiet > /dev/null
+pacman -S ansible
 
 mkdir -p /opt/tools/_etc
 
